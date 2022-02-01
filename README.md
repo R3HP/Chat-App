@@ -1,6 +1,14 @@
 # chat_app
 
-A new Flutter project.
+A chat app with flutter and firebase with  image message support and video calling with using WebRTC,
+reading user's contacts.
+theming.
+Provider State Management Package.
+
+note : Code is not yet Cleaned.
+
+video of Project  at :
+https://www.instagram.com/tv/CXrVPJWFyCE/?utm_source=ig_web_copy_link
 
 ## Getting Started
 
