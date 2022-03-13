@@ -74,7 +74,7 @@ class UserManager with ChangeNotifier {
           _currentUserContacts.add(MyUser(
               phoneNumber: querySnapShot.data()['phoneNumber'],
               userId: querySnapShot.id,
-              profilepic: querySnapShot.data()['profilePic'],
+              profilepic: querySnapShot.data()['profilePic'] ?? '',
               displayName: contact.displayName));
         });
       }

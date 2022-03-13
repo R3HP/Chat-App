@@ -259,7 +259,7 @@ class _CallPageState extends State<CallPage> {
               json.encode({
                 'candidate': candidate.candidate,
                 'sdpMid': candidate.sdpMid,
-                'sdpMlineIndex': candidate.sdpMlineIndex
+                'sdpMlineIndex': candidate.sdpMLineIndex
               }),
         );
       }

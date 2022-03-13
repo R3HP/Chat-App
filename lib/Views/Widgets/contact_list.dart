@@ -54,7 +54,7 @@ class ContactsList extends StatelessWidget {
                                 snapshot.data![index].displayName!,
                             chatProfilePic: snapshot.data![index].profilepic,
                             chatId: snapshot.data![index].userId,
-                            docId: asyncSnapshot.data.docs[0].id,
+                            docId: asyncSnapshot.data.docs.isNotEmpty ? asyncSnapshot.data.docs[0].id : null,
                             addToGp : userManager.addtogroupdUserIds
                           ),
               ),
